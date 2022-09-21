@@ -1,26 +1,54 @@
 body{
     font-family: 'Poppins', sans-serif;
+    transition: .2s all ease;
 }
 .container{
     padding-bottom: 100px;
 }
+
+.logo img {
+    height: 4rem;
+    width: auto;
+}
+
 #carousel, #phone, #laptop{
     padding-top: 100px;
 }
 
+/* nav */
 .nav-link{
     color: black;
 }
 
-#see-button button{
-    color: orange;
-}
 
+/* carousel */
 .background{
     background-image: url("images/top-background.png");
     background-repeat: no-repeat;
     background-position: left;
 }
+
+/* phone card section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#see-button button{
+    color: orange;
+}
+
+
 
 
 
