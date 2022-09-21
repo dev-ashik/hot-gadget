@@ -1,100 +1,105 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s all ease;
 }
-.container{
-    padding-bottom: 100px;
-}
-#carousel, #phone, #laptop{
-    padding-top: 100px;
+.container {
+  padding-bottom: 100px;
 }
 
-.nav-link{
-    color: black;
+.logo img {
+  height: 4rem;
+  width: auto;
 }
 
-#see-button button{
-    color: orange;
+#carousel,
+#phone,
+#laptop {
+  padding-top: 100px;
 }
 
-.background{
-    background-image: url("images/top-background.png");
-    background-repeat: no-repeat;
-    background-position: left;
+/* nav */
+.nav-link {
+  color: black;
 }
 
-
-
-
-.box-element-align{
-    text-align: center;
-}
-.card{
-    
-    box-shadow: 10px 10px 30px gray;
-    border-radius: 10px;
-}
-.card img{
-    padding: 10% 10%;
-}
-.card-footer{
-    border-radius: 10px;
-    background-color: white;
-    border-top: none;
-    
+/* carousel */
+.background {
+  background-image: url("images/top-background.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-.last-div img{
-    width: 100%;
+/* phone card section */
+#see-button button {
+  color: orange;
 }
 
-.categories p{
-   
-    background-image: linear-gradient(90deg, yellow, orange);
-    height: 10px;
-    width: 110px;
-    border-radius: 10px;
-    margin-left: 25px;
-    
-}
-.half-weith img{
-    width: 100%;
+.card {
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
 }
 
-.box{
-    box-shadow: 5px 5px 20px gray;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.bag{
-    border-radius: 0px 20px;
-    
-}
-#mid{
-    margin-top: 15%;
-}
-.perfume-shoes{
-    border-radius: 20px 0px;
-}
-.box img{
-    padding-bottom: 20px;
+.card img {
+  width: 100%;
+  padding: 0 5px;
+  object-fit: cover;
 }
 
-footer{
-    text-align: center;
+.card-footer {
+  border-radius: 10px;
+  background-color: white;
+  border-top: none;
 }
 
+/* categories */
 
+.categories p {
+  background-image: linear-gradient(90deg, yellow, orange);
+  height: 10px;
+  width: 110px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
 
-.bag:hover{
-    color: white;
-    background-image: linear-gradient(white, gray );
+.half-weith img {
+  width: 100%;
 }
-.beauty:hover{
-    color: white;
-    background-image: linear-gradient(white, gray ); 
+
+.box {
+  box-shadow: 5px 5px 20px gray;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
 }
-.shoe:hover{
-    color: white;
-    background-image: linear-gradient(white, gray );
+.bag {
+  border-radius: 0px 20px;
+}
+
+.bag:hover {
+  color: white;
+  background-image: linear-gradient(white, gray);
+}
+.beauty:hover {
+  color: white;
+  background-image: linear-gradient(white, gray);
+}
+.shoe:hover {
+  color: white;
+  background-image: linear-gradient(white, gray);
+}
+#mid {
+  margin-top: 15%;
+}
+.perfume-shoes {
+  border-radius: 20px 0px;
+}
+.box img {
+  padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 1rem 0;
 }
